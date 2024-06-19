@@ -69,16 +69,7 @@ const ContactUs = () => {
                 className="mt-2 appearance-none block w-full px-3 h-[35px] border border-gray-300 rounded-[3px] placeholder-gray-400 focus:outline-none focus:ring-green-500 focus:border-green-500 sm:text-sm"
               />
             </div>
-            {/* <div className="mb-4 flex items-center">
-            <input
-			type="checkbox"
-			name="sendCopy"
-			checked={form.sendCopy}
-			onChange={handleChange}
-			className="mr-2"
-            />
-            <label>Send me a copy of this message</label>
-		</div> */}
+
             <button
               type="submit"
               className="w-full bg-green-600 text-black py-2 rounded hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500"
