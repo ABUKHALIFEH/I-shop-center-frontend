@@ -116,18 +116,18 @@ const App = () => {
         <Route
           path="/checkout"
           element={
-            <ProtectedRoute>
-              <CheckoutPage />
-            </ProtectedRoute>
+            // <ProtectedRoute>
+            <CheckoutPage />
+            // </ProtectedRoute>
           }
         />
         <Route path="/order/success" element={<OrderSuccessPage />} />
         <Route
           path="/profile"
           element={
-            <ProtectedRoute>
-              <ProfilePage />
-            </ProtectedRoute>
+            // <ProtectedRoute>
+            <ProfilePage />
+            // </ProtectedRoute>
           }
         />
         <Route

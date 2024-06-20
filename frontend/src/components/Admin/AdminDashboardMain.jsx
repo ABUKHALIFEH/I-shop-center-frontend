@@ -62,7 +62,7 @@ const AdminDashboardMain = () => {
       field: "createdAt",
       headerName: "Order Date",
       type: "number",
-      minWidth: 130,
+      minWidth: 131,
       flex: 0.8,
     },
   ];
